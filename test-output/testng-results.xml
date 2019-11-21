@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+      <class name="testcases.TestMyBox">
+        <test-method status="FAIL" signature="testSetup()[pri:0, instance:testcases.TestMyBox@65d09a04]" name="testSetup" is-config="true" duration-ms="25919" started-at="2018-12-20T09:11:28Z" finished-at="2018-12-20T09:11:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.ttn.automation.Utils.EnvironmentSetup.initiateWebDriver(EnvironmentSetup.java:120)
+at com.ttn.automation.core.TestBase.testSetup(TestBase.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="SKIP" signature="dataSetter()[pri:0, instance:testcases.TestMyBox@65d09a04]" name="dataSetter" is-config="true" duration-ms="0" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetter -->
+        <test-method status="SKIP" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:testcases.TestMyBox@65d09a04]" name="methodSetup" is-config="true" duration-ms="0" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="SKIP" signature="testMyBoxFilters(java.lang.reflect.Method)[pri:0, instance:testcases.TestMyBox@65d09a04]" name="testMyBoxFilters" duration-ms="0" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.ttn.automation.Utils.EnvironmentSetup.initiateWebDriver(EnvironmentSetup.java:120)
+at com.ttn.automation.core.TestBase.testSetup(TestBase.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyBoxFilters -->
+        <test-method status="SKIP" signature="tearDownTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:testcases.TestMyBox@65d09a04]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="SKIP" signature="tearDownSuite()[pri:0, instance:testcases.TestMyBox@65d09a04]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2018-12-20T09:11:54Z" finished-at="2018-12-20T09:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- testcases.TestMyBox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

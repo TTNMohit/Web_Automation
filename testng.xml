@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TataSky Web Automation" verbose="1">
+    <test name="Chrome Test" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.TestMyBox"></class>
+            <!-- <class name="testcases.TestProfileFavoriteContent"></class>
+            <class name="testcases.TestProfileManagement"></class>
+            <class name="testcases.TestContinueWatching"></class>
+            <class name="testcases.TestHomeScreen"></class>
+            <class name="testcases.TestPlayerScreen"></class>
+            <class name="testcases.TestLoginLogout"></class> -->
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TataSky Web Automation" verbose="1">
+    <test name="My Box Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestMyBox"></class>
+        </classes>
+    </test>
+    <test name="Favorite Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestProfileFavoriteContent"></class>
+        </classes>
+    </test>
+    <test name="Profile Management Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestProfileManagement"></class>
+        </classes>
+    </test>
+    <test name="Continue Watching/ Viewing History Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestContinueWatching"></class>
+        </classes>
+    </test>
+    <test name="Home Screen Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestHomeScreen"></class>
+        </classes>
+    </test>
+    <test name="Login Logout Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestLoginLogout"></class>
+        </classes>
+    </test>
+    <test name="Player Screen Test" preserve-order="true">
+        <classes>
+            <class name="testcases.TestPlayerScreen"></class>
+        </classes>
+    </test>
+</suite>
+
